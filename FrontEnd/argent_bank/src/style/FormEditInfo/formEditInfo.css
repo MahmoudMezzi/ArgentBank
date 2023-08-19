@@ -1,0 +1,55 @@
+.editForm_wrapper {
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .EditSucceededMessage{
+    color: #00bc77;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    margin-top: 0;
+  }
+  .EditErrorMessage{
+    color: red;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    margin-top: 0;
+  }
+
+  .sign-in-button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+  }
+
+  .editInfo_input-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .editInfo_input-wrapper label {
+    font-weight: bold;
+  }
+  
+  .editInfo_input-wrapper input {
+    padding: 5px;
+    font-size: 1.2rem;
+    width: 60%;
+  }
+
+  .button_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
